@@ -1,0 +1,20 @@
+.modal__analisys {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 400px;
+	height: fit-content;
+	background-color: rgba(250, 250, 250, 1);
+	border-radius: 15px;
+	z-index: 2;
+}
+
+@media (max-width: 575px) {
+	.modal__analisys {
+		top: unset;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 40%;
+	}
+}
